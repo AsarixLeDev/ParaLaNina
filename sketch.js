@@ -1,10 +1,10 @@
 let vertices = [];
 let initVertices = [];
-let r = 5;  // Adjust the scale factor as needed
 
 function setup() {
     // Create a fullscreen canvas
     createCanvas(windowWidth, windowHeight);
+    let r = height / 50;
     let precision = 1000;
     let index = 0;
     while (index < precision) {
